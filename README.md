@@ -67,7 +67,7 @@ With Yarn 2 the husky install and hook creation is simply and automatic, you onl
 | :-------------------------------------------------------------------------------------------------------------- |
 | If the automatically generated hook already in this repo before the installation, do NOT run the above commands |
 
-To install all the dependencies, execute this command: `yarn i`
+To install all the dependencies, execute this command: `yarn install`
 
 Running the development sever: `yarn dev`
 

@@ -55,7 +55,7 @@
     "stylelint-prettier": "^4.1.0",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.17.2",
-    "vite": "^5.0.10",
+    "vite": "^5.0.12",
     "vitest": "^1.1.1"
   }
 }

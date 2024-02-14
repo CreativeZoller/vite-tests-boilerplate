@@ -6,9 +6,12 @@ interface UserStore {
   changeName: () => void
   changeNum: () => void
 }
+
+console.log("%cTurboconsole Message", "color: orange");
+
 export const useUserStore = create<UserStore>((set) => ({
-  userName: 'LiuJie1998',
+  userName: 'denver',
   num: 0,
-  changeName: () => set({ userName: 'laoer536' }),
+  changeName: () => set({ userName: 'dinosaur' }),
   changeNum: () => set((state) => ({ num: state.num + 1 })),
 }))

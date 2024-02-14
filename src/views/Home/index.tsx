@@ -1,4 +1,5 @@
 import reactLogo from '@assets/react.svg'
+import viteLogo from "@assets/vite.svg"
 import { useUserStore } from '@store/user'
 import { useNavigate } from 'react-router-dom'
 import HomeStyle from './index.module.scss'
@@ -15,7 +16,7 @@ function Home() {
     <div className={HomeStyle.home}>
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={publicPath + 'vite.svg'} className={HomeStyle.logo} alt="Vite logo" />
+          <img src={viteLogo} className={HomeStyle.logo} alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className={`${HomeStyle.logo} ${HomeStyle.react}`} alt="React logo" />

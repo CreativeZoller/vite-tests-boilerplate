@@ -1,5 +1,11 @@
 # Vite boilerplate with testing tools
 
+![GitHub issues](https://img.shields.io/github/issues-raw/CreativeZoller/vite-tests-boilerplate?logo=issues)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr-raw/CreativeZoller/vite-tests-boilerplate)
+![GitHub last commit](https://img.shields.io/github/last-commit/CreativeZoller/vite-tests-boilerplate?logo=last%20commit)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/CreativeZoller/vite-tests-boilerplate)
+![GitHub License](https://img.shields.io/github/license/CreativeZoller/vite-tests-boilerplate)
+
 ## Table of Contents
 
 - [Description](#description)

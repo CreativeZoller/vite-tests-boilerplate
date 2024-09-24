@@ -41,7 +41,7 @@
     "@vitest/coverage-v8": "^1.1.1",
     "@vitest/ui": "^1.2.2",
     "cypress": "^13.6.1",
-    "eslint": "^8.53.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",

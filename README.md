@@ -45,6 +45,26 @@ For those who used npm till now, I would suggest to change to Yarn immediately. 
 
 ### Version
 
+Version number: 2.0.0
+
+#### Changelog
+
+Version number: 2.0.0
+
+The project got updated for a drag 'n' drop Christmas Gift list application in the spirit of the upcoming festives.
+
+The project got updated with the following changes:
+
+- styling replaced with [Tailwind](https://tailwindcss.com/) in order to make the styling process easier to modify
+
+- [drag and drop](https://github.com/hello-pangea/dnd#readme) functionality added to our new single list, so now we have a true application structure
+
+- [xls export](https://sheetjs.com/) option added for the list export, so you can style it in Excel and print out, after finished with the proper Gift List
+
+- with the changes, new unit and e2e tests are also implemented instead of the old ones
+
+- also a lot of (from my pov) unnecessary stuff is now removed, reducing the repo size, the build size, and just not including all not used code
+
 Version number: 1.0.0
 
 This project was generated with the following stack:
@@ -67,7 +87,7 @@ Clone this repository to your hard drive.
 
 The repository requires Yarn 2 to be installed, which can be done as fresh install or migration from Yarn 1, for instructions please follow [the following documentation](https://yarnpkg.com/migration/guide).
 
-With Yarn 2 the husky install and hook creation is simply and automatic, you only need to run the following command for installation: `yarn dlx husky-init --yarn2 && yarn`. After successfull installation, you can create hook by simply sunning: `npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'`. with this, the hook wants to run `npm test` which we doen't have obviously, so change it to `yarn lint && yarn format`.
+With Yarn 2 the husky install and hook creation is simply and automatic, you only need to run the following command for installation: `yarn dlx husky-init --yarn2 && yarn`. After successfull installation, you can create hook by simply sunning: `npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'`. with this, the hook wants to run `npm test` which we don't have obviously, so change it to `yarn lint && yarn format`.
 
 | :warning: WARNING                                                                                               |
 | :-------------------------------------------------------------------------------------------------------------- |
@@ -107,7 +127,7 @@ Run `yarn build` to build the project for production usage or `yarn build:test` 
 
 ### Running unit tests
 
-Run `yarn test`, `yarn test:dev` or `yarn test:ui` to execute the unit tests via [Vitest](https://vitest.dev/) or `yarn coverage` for coverage testing.
+Run `yarn test`, `yarn test:dev` to execute the unit tests via [Vitest](https://vitest.dev/) or `yarn test:coverage` for coverage testing. To see the html report of the test, run `yarn test:review`.
 
 ![unit test results in the cli][unitTest]
 

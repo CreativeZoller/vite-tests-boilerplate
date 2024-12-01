@@ -37,7 +37,6 @@
     "useSearchParams": true,
     "useState": true,
     "useSyncExternalStore": true,
-    "useTransition": true,
-    "useUserStore": true
+    "useTransition": true
   }
 }

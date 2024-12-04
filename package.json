@@ -43,7 +43,7 @@
     "cypress": "^13.16.0",
     "eslint": "^8.57.1",
     "eslint-plugin-cypress": "^3.6.0",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "husky": "^9.1.6",
     "jsdom": "^24.0.0",

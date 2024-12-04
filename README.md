@@ -145,7 +145,7 @@ Run `yarn cypress` to execute the end-to-end tests via a platform of your choice
 
 ## License
 
-Copyright (c) 2023, Zoltan Belicza
+Copyright (c) 2023 - 2024, Zoltan Belicza
 
 This project uses GNU General Public Licence which is readable in the [LICENSE](LICENSE) file.
 

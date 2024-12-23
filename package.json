@@ -18,7 +18,7 @@
     "cypress": "cypress open --component --browser chrome"
   },
   "dependencies": {
-    "@hello-pangea/dnd": "^16.5.0",
+    "@hello-pangea/dnd": "^17.0.0",
     "lucide-react": "^0.469.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

@@ -14,6 +14,8 @@
 - [Testing](#testing)
 - [License](#license)
 
+![running app in chrome browser][screenshot]
+
 ## Description
 
 This is a template, a boilerplate for modern Vite projects. You can use it as you want, both as dependency or as a brand-new base.
@@ -159,3 +161,4 @@ Simply create newbranch and make a pull request. All contributions, regardless o
 [vitestUi]: assets/images/vitestui.png
 [coverage]: assets/images/coverage.png
 [cypress]: assets/images/cypress.png
+[screenshot]: assets/images/app-running.png
